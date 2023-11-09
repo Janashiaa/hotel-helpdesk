@@ -1,0 +1,19 @@
+.free_rooms_section {
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.free_rooms_section_header {
+    width: 100%;
+    height: 50px;
+    background-color: #00303F;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.free_rooms_section_text {
+    font-size: x-large;
+    color: #CAE4DB;
+    text-align: left;
+}
