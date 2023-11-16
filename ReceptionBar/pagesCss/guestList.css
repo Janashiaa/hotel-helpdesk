@@ -4,7 +4,7 @@
     height: 100%;
 }
 
-.ended_contracts_section_header {
+.guest_list_section_header {
     width: 100%;
     height: 50px;
     background-color: #00303F;
@@ -12,8 +12,7 @@
     padding-left: 10px;
 }
 
-.ended_contracts_section_text {
+.guest_list_section_text {
     font-size: x-large;
     color: #CAE4DB;
-    text-align: left;
 }

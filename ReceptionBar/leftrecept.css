@@ -27,6 +27,11 @@ html, body {
     cursor: pointer;
 }
 
+.hotel_name:hover {
+    text-shadow: 0 0 10px #edd072;
+}
+
+
 .buttons_container {
     width: 100%;
     margin-top: 50px;
