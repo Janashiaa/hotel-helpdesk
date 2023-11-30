@@ -7,12 +7,12 @@
 .guest_list_section_header {
     width: 100%;
     height: 7%;
-    background-color: #00303F;
+    background-color: #161A30;
     padding-top: 5px;
     padding-left: 10px;
 }
 
 .guest_list_section_text {
     font-size: x-large;
-    color: #CAE4DB;
+    color: #F0ECE5;
 }

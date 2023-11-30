@@ -1,5 +1,7 @@
 /* Sky color #CAE4DB - Mist color #7A9D96 */
 
+/* 161A30 31304D B6BBC4 F0ECE5 */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +18,7 @@ html, body {
 .left_sidebar{
     width: 20%;
     height: 100%;
-    background-color: #00303F;
+    background-color: #161A30;
 }
 
 .hotel_name{
@@ -40,34 +42,51 @@ html, body {
 }
 
 .buttons_center {
-    width: 80%;
+    width: 90%;
 }
 
-.main_page,
+.main_page,  
 .free_rooms,
 .taken_rooms,
 .guest_list,
 .ended_contracts {
     display: block;
-    background-color: #CAE4DB;
+    background-color: #161A30;
     width: 100%;
     height: 30px;
     margin-top: 20px;
     border-radius: 10px;
     outline: none;
     border: none;
+    font-size: medium;
+    color: #F0ECE5;
     cursor: pointer;
 }
 
+.main_page:hover,
+.free_rooms:hover,
+.taken_rooms:hover,
+.guest_list:hover,
+.ended_contracts:hover {
+    background-color: #31304D;
+}
+
 .exit_button{
-    background-color: #CAE4DB;
+    background-color: #161A30;
     width: 80%;
     height: 30px;
     margin-top: 20px;
     border-radius: 10px;
     outline: none;
     border: none;
+    font-size: medium;
+    color: #F0ECE5;
     cursor: pointer;
+}
+
+.exit_button:hover {
+    font-size: large;
+    background-color: #31304D;
 }
 
 .address_text {
