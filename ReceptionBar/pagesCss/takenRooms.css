@@ -28,29 +28,24 @@
     width: 300px;
     height: 30px;
     border-radius: 15px;
-    padding-left: 10px;
+    padding-left: 15px;
     margin-left: 25%;
+    font-size: medium;
 }
 
 .taken_rooms_search_input_button {
     width: 100px;
     height: 30px;
     border-radius: 15px;
+    background-color: #161A30;
+    border: none;
+    color: #F0ECE5;
+    font-size: medium;
+    cursor: pointer;
 }
 
-.statistic_free,
-.statistic_taken,
-.statistic_booked {
-    width: 200px;
-    height: 50px;
+.taken_rooms_search_input_button:hover {
     background-color: #31304D;
-    text-align: center;
-    border-radius: 15px;
-    padding: 13px;
-    color: #CAE4DB;
-    cursor: pointer;
-    font-size: medium;
-    font-style: oblique;
 }
 
 .taken_rooms_worksheet_backer {

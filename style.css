@@ -1,0 +1,76 @@
+/* Sky color #CAE4DB - Mist color #7A9D96 */
+
+/* 161A30 31304D B6BBC4 F0ECE5 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    display: flex;
+}
+
+.main_backer_div {
+    background: url(./images/logo\ \(red\).png);
+    background-repeat: repeat;
+    background-size: 100%, 100%;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_card{
+    width: 450px;
+    height: 350px;
+    background-color: #031219;
+    border-radius: 15px;
+    border: 2px solid #ee0824;
+    display: flex;
+    justify-content: center;
+}
+
+.inputs_div {
+    background-color: none;
+    width: 400px;
+    height: 135px;
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.username_input,
+.password_input {
+    width: 330px;
+    height: 40px;
+    border-radius: 20px;
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+.auth_button {
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+    background-color: #031219;
+    border: none;
+    color: #B6BBC4;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.auth_button:hover {
+    background-color: #31304D;
+}
+
+.main_text_auth {
+    font-size: x-large;
+    color: #B6BBC4;
+}

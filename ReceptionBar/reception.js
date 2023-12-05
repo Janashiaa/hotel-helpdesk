@@ -45,3 +45,7 @@ function EndedContracts() {
     GuestListSection.style.display = "none"
     EndedContractSection.style.display = "block"
 }
+
+function ExitButton() {
+    window.location.href = "../index.html"
+}
