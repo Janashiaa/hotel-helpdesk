@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +8,26 @@
     <script src="mainscript.js" defer></script>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="main_backer_div">
         <div class="main_card">
             <div class="inputs_div">
+                <center>
+                    <div class="wrong_alert_box">
+                        <img src="./images/icons/warning-red.png" class="wrong_alert_icon">
+                        <h1 class="wrong_alert">Incorrect Information</h1>
+                    </div>
+                </center>
                 <center><h1 class="main_text_auth">ავტორიზაცია</h1></center>
-                <center><input type="text" class="username_input"></center>
-                <center><input type="password" class="password_input"></center>
+                <center><input type="text" class="username_input" placeholder="Username"></center>
+                <center><input type="password" class="password_input" placeholder="Password"></center>
                 <center><button class="auth_button" onclick="check_auth()">შესვლა</button></center>
             </div>
         </div>
     </div>
 </body>
+
 </html>
 
 <!-- 

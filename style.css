@@ -37,18 +37,39 @@ html, body {
 }
 
 .inputs_div {
+    position: relative;
     background-color: none;
     width: 400px;
     height: 135px;
     display: inline-block;
-    margin-top: 60px;
+    top: 60px;
 }
 
-.username_input,
+.username_input {
+    width: 330px;
+    height: 40px;
+    background: url("./images/icons/email.png");
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding-right: 40px;
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
 .password_input {
     width: 330px;
     height: 40px;
+    background: url("./images/icons/padlock.png");
+    background-size: 28px 28px;
+    background-repeat: no-repeat;
+    background-position: 98% 50%;
+    background-color: whitesmoke;
     border-radius: 20px;
+    padding-right: 40px;
     padding-left: 15px;
     margin-top: 10px;
     font-size: medium;
@@ -73,4 +94,25 @@ html, body {
 .main_text_auth {
     font-size: x-large;
     color: #B6BBC4;
+}
+
+.wrong_alert_box {
+    position: absolute;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    top: -25%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.wrong_alert {
+    color: #ee0824;
+    font-size: medium;
+}
+
+.wrong_alert_icon {
+    width: 30px;
+    height: 30px;
+
 }
