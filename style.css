@@ -36,6 +36,10 @@ html, body {
     justify-content: center;
 }
 
+.main_card:hover {
+    border: 2px solid cyan;
+}
+
 .inputs_div {
     position: relative;
     background-color: none;
@@ -64,7 +68,7 @@ html, body {
     width: 330px;
     height: 40px;
     background: url("./images/icons/padlock.png");
-    background-size: 28px 28px;
+    background-size: 30px 30px;
     background-repeat: no-repeat;
     background-position: 98% 50%;
     background-color: whitesmoke;

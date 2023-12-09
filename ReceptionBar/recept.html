@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,16 +14,17 @@
     <link rel="stylesheet" href="../ReceptionBar/pagesCss/endedContracts.css">
     <link rel="stylesheet" href="../ReceptionBar/pagesCss/guestList.css">
 </head>
+
 <body>
     <div class="left_sidebar">
         <h1 class="hotel_name">Janashia Hotel Complex</h1>
         <div class="buttons_container">
             <div class="buttons_center">
-        <button class="main_page" onclick="MainPage()">მთავარი გვერდი</button>
-        <button class="free_rooms" onclick="FreeRooms()">თავისუფალი ნომრები</button>
-        <button class="taken_rooms" onclick="TakenRooms()">დაკავებული ნომრები</button>
-        <button class="guest_list" onclick="GuestList()">სტუმართა სია</button>
-        <button class="ended_contracts" onclick="EndedContracts()">დასრულებული კონტრაქტები</button>
+                <button class="main_page" onclick="MainPage()">მთავარი გვერდი</button>
+                <button class="free_rooms" onclick="FreeRooms()">თავისუფალი ნომრები</button>
+                <button class="taken_rooms" onclick="TakenRooms()">დაკავებული ნომრები</button>
+                <button class="guest_list" onclick="GuestList()">სტუმართა სია</button>
+                <button class="ended_contracts" onclick="EndedContracts()">დასრულებული კონტრაქტები</button>
             </div>
         </div>
         <h1 class="address_text">მისამართი</h1>
@@ -31,36 +33,37 @@
     </div>
     <main>
         <div class="main_section">
-            <div class="main_section_header">
-                <h1 class="main_section_header_text">მთავარი გვერდი</h1>
-            </div>
         </div>
         <div class="free_rooms_section">
-            <div class="free_rooms_section_header">
-                <h1 class="free_rooms_section_text">თავისუფალი ნომრები</h1>
-            </div>
         </div>
         <div class="taken_rooms_section">
-            <div class="taken_rooms_section_header">
-                <h1 class="taken_rooms_section_text">დაკავებული ნომრები</h1>
-            </div>
             <div class="taken_roons_search_container">
-                <input class="taken_rooms_search_input"></input>
+                <input class="taken_rooms_search_input" placeholder="დაკავებული ნომრები"></input>
                 <button class="taken_rooms_search_input_button">ძებნა</button>
             </div>
-            <div class="taken_rooms_worksheet_backer">1
+            <div class="taken_rooms_worksheet_backer">
+                <div class="background_container">
+                    <div class="guest_1">1 ნომერი დაკავებულია, სხვაში შეყავით.</div>
+                </div>
             </div>
         </div>
         <div class="guest_list_section">
-            <div class="guest_list_section_header">
-                <h1 class="guest_list_section_text">სტუმართა სია</h1>
+            <div class="guest_list_search_container">
+                <input class="guest_list_search_input" placeholder="სტუმართა სია"></input>
+                <button class="guest_list_search_input_button">ძებნა</button>
+            </div>
+            <div class="guest_list_worksheet_backer">4
             </div>
         </div>
         <div class="ended_contracts_section">
-            <div class="ended_contracts_section_header">
-                <h1 class="ended_contracts_section_text">დასრულებული კონტრაქტები</h1>
+            <div class="ended_contract_search_container">
+                <input class="ended_contract_search_input" placeholder="დასრულებული კონტრაქტები"></input>
+                <button class="ended_contract_search_input_button">ძებნა</button>
+            </div>
+            <div class="ended_contract_worksheet_backer">5
             </div>
         </div>
     </main>
 </body>
+
 </html>

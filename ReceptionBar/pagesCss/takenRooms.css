@@ -2,33 +2,21 @@
     display: none;
     width: 100%;
     height: 100%;
-}
-
-.taken_rooms_section_header {
-    width: 100%;
-    height: 7%;
     background-color: #161A30;
-    padding-top: 5px;
-    padding-left: 10px;
-}
-
-.taken_rooms_section_text {
-    font-size: x-large;
-    color: #F0ECE5;
-    text-align: left;
 }
 
 .taken_roons_search_container {
     width: 100%;
     height: 8%;
     background-color: #161A30;
+    padding-top: 1%;
 }
 
 .taken_rooms_search_input{
     width: 300px;
     height: 30px;
     border-radius: 15px;
-    padding-left: 15px;
+    padding-left: 10px;
     margin-left: 25%;
     font-size: medium;
 }
@@ -49,7 +37,53 @@
 }
 
 .taken_rooms_worksheet_backer {
-    background-color: red; 
+    background-color: #B6BBC4; 
     width: 100%;
-    height: 85%;
+    height: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 0 0 0;
+}
+
+.background_container {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    border-radius: 15px 0 0 0;
+    overflow: auto;
+    display: block;
+}
+
+.guest_1,
+.guest_2,
+.guest_3,
+.guest_4,
+.guest_5,
+.guest_6,
+.guest_7,
+.guest_8,
+.guest_9,
+.guest_10,
+.guest_11,
+.guest_12,
+.guest_13,
+.guest_14,
+.guest_15,
+.guest_16,
+.guest_17,
+.guest_18,
+.guest_19,
+.guest_20 {
+    width: 98%;
+    height: 30px;
+    background-color: rgb(225, 59, 59);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    color: black;
 }
