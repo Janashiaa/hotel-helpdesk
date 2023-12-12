@@ -11,7 +11,7 @@
 
 <body>
     <div class="main_backer_div">
-        <div class="main_card">
+        <div class="main_card" onmouseover="main_card_mouse_over()" onmouseout="main_card_mouse_out()">
             <div class="inputs_div">
                 <center>
                     <div class="wrong_alert_box">
@@ -19,10 +19,16 @@
                         <h1 class="wrong_alert">Incorrect Declaration</h1>
                     </div>
                 </center>
-                <center><h1 class="main_text_auth">ავტორიზაცია</h1></center>
+                <center>
+                    <h1 class="main_text_auth">ავტორიზაცია</h1>
+                </center>
                 <center><input type="text" class="username_input" placeholder="Username"></center>
                 <center><input type="password" class="password_input" placeholder="Password"></center>
                 <center><button class="auth_button" onclick="check_auth()">შესვლა</button></center>
+                <div class="test_shower_box">
+                    <h1 class="watcher_text1">Use this declaration to view the page as a watcher</h1>
+                    <h1 class="watcher_text2">username: watcher | password: 1234</h1>
+                </div>
             </div>
         </div>
     </div>

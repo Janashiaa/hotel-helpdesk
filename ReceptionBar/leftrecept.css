@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+main {
+    width: 80%;
+    height: 100%;
+}
+
 html, body {
     height: 100%;
     margin: 0;

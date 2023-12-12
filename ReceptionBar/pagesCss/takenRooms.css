@@ -37,34 +37,42 @@
 }
 
 .taken_rooms_worksheet_backer {
-    background-color: #B6BBC4; 
+    background-color: #31304D; 
     width: 100%;
     height: 92%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border-radius: 15px 0 0 0;
 }
 
 .taken_rooms_background_container {
     width: 100%;
     height: 100%;
-    background-color: gray;
+    background-color: #31304D;
     border-radius: 15px 0 0 0;
     overflow: auto;
     display: block;
 }
 
-.taken_rooms_guest_1 {
+.taken_rooms_guest_lister {
     width: 98%;
     height: 30px;
-    background-color: rgb(225, 59, 59);
+    background-color: #B6BBC4;
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 15px;
-    padding-left: 10px;
     margin-left: 1%;
     display: flex;
     align-items: center;
-    color: black;
+}
+
+.taken_rooms_guest_text {
+    font-size: large;
+    padding-left: 15px;
+}
+
+.taken_rooms_status_color {
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    margin-left: 15px;
+    border-radius: 20px;
 }
