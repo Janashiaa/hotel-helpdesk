@@ -5,14 +5,14 @@
     background-color: #161A30;
 }
 
-.ended_contract_search_container {
+.ended_contracts_search_container {
     width: 100%;
     height: 8%;
     background-color: #161A30;
     padding-top: 1%;
 }
 
-.ended_contract_search_input{
+.ended_contracts_search_input{
     width: 300px;
     height: 30px;
     border-radius: 15px;
@@ -21,7 +21,7 @@
     font-size: medium;
 }
 
-.ended_contract_search_input_button {
+.ended_contracts_search_input_button {
     width: 100px;
     height: 30px;
     border-radius: 15px;
@@ -32,13 +32,39 @@
     cursor: pointer;
 }
 
-.ended_contract_search_input_button:hover {
+.ended_contracts_search_input_button:hover {
     background-color: #31304D;
 }
 
-.ended_contract_worksheet_backer {
-    background-color: gray; 
+.ended_contracts_worksheet_backer {
+    background-color: #B6BBC4; 
     width: 100%;
     height: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 15px 0 0 0;
+}
+
+.ended_contracts_background_container {
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    border-radius: 15px 0 0 0;
+    overflow: auto;
+    display: block;
+}
+
+.ended_contracts_guest_1 {
+    width: 98%;
+    height: 30px;
+    background-color: rgb(144, 62, 144);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    padding-left: 10px;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    color: black;
 }

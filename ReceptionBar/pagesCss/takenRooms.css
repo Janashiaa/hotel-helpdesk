@@ -5,7 +5,7 @@
     background-color: #161A30;
 }
 
-.taken_roons_search_container {
+.taken_rooms_search_container {
     width: 100%;
     height: 8%;
     background-color: #161A30;
@@ -46,7 +46,7 @@
     border-radius: 15px 0 0 0;
 }
 
-.background_container {
+.taken_rooms_background_container {
     width: 100%;
     height: 100%;
     background-color: gray;
@@ -55,26 +55,7 @@
     display: block;
 }
 
-.guest_1,
-.guest_2,
-.guest_3,
-.guest_4,
-.guest_5,
-.guest_6,
-.guest_7,
-.guest_8,
-.guest_9,
-.guest_10,
-.guest_11,
-.guest_12,
-.guest_13,
-.guest_14,
-.guest_15,
-.guest_16,
-.guest_17,
-.guest_18,
-.guest_19,
-.guest_20 {
+.taken_rooms_guest_1 {
     width: 98%;
     height: 30px;
     background-color: rgb(225, 59, 59);
