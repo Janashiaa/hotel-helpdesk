@@ -37,23 +37,133 @@
 }
 
 .guest_list_worksheet_backer {
-    background-color: #31304D; 
+    background-color: #161A30;
     width: 100%;
     height: 92%;
     border-radius: 15px 0 0 0;
+    display: flex;
 }
 
 .guest_list_background_container {
-    width: 100%;
+    width: 60%;
     height: 100%;
     background-color: #31304D;
-    border-radius: 15px 0 0 0;
+    border-radius: 13px 5px 0 0;
     overflow: auto;
     display: block;
 }
 
+.guest_list_details_box {
+    width: 40%;
+    height: 100%;
+    float: right;
+    background-color: #31304D;
+    border-radius: 5px 0 0 0;
+    border-left: 2px solid #161A30;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.guest_list_details_head {
+    width: 60%;
+    height: 30px;
+    background-color: #B6BBC4;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.guest_list_details_head_text {
+    font-size: large;
+    text-align: center;
+}
+
+.guest_list_details_box_card {
+    width: 94%;
+    height: 90%;
+    border-radius: 15px;
+    background-color: #B6BBC4;
+}
+
+.card_upper_box {
+    background-color: #31304D;
+    width: 100%;
+    height: 8%;
+    border-radius: 5px 0 0 0;
+}
+
+.card_lower_box {
+    background-color: #31304D;
+    width: 100%;
+    height: 92%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper_guest_list_details_box_card {
+    width: 100%;
+    height: 50%;
+    background-color: none;
+    border-radius: 15px 15px 0 0;
+}
+
+.lower_guest_list_details_box_card {
+    width: 100%;
+    height: 50%;
+    background-color: none;
+    border-radius: 0 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower_guest_list_details_box_information {
+    font-size: small;
+    color: #161A30;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.guest_list_comment_area {
+    resize: none;
+    background-color: #F0ECE5;
+    width: 95%;
+    height: 75%;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.guest_list_details_box_card_saver {
+    width: 70%;
+    height: 40px;
+    background-color: #B6BBC4;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+}
+
+.guest_list_details_box_card_saver:hover {
+    background-color: #31304D;
+    color: #F0ECE5;
+}
+
+.guest_list_details_box_card_saver_text {
+    font-size: large;
+}
+
 .guest_list_guest_lister {
-    width: 98%;
+    width: 96%;
     height: 30px;
     background-color: #B6BBC4;
     margin-top: 10px;

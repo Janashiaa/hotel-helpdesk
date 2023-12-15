@@ -3,13 +3,11 @@ let FreeRoomsSection = document.querySelector(".free_rooms_section");
 let TakenRoomsSection = document.querySelector(".taken_rooms_section");
 let GuestListSection = document.querySelector(".guest_list_section");
 let EndedContractSection = document.querySelector(".ended_contracts_section");
-var ButtonMain = document.querySelector(".main_page");
-var ButtonFree = document.querySelector(".free_rooms");
-var ButtonTaken = document.querySelector(".taken_rooms");
-var ButtonList = document.querySelector(".guest_list");
-var ButtonEnded = document.querySelector(".ended_contracts")
-
-
+let ButtonMain = document.querySelector(".main_page");
+let ButtonFree = document.querySelector(".free_rooms");
+let ButtonTaken = document.querySelector(".taken_rooms");
+let ButtonList = document.querySelector(".guest_list");
+let ButtonEnded = document.querySelector(".ended_contracts");
 
 function MainPage() {
     MainSection.style.display = "block"
@@ -17,11 +15,6 @@ function MainPage() {
     TakenRoomsSection.style.display = "none"
     GuestListSection.style.display = "none"
     EndedContractSection.style.display = "none"
-    ButtonMain.style.textDecoration = "underline"
-    ButtonFree.style.textDecoration = "none"
-    ButtonTaken.style.textDecoration = "none"
-    ButtonList.style.textDecoration = "none"
-    ButtonEnded.style.textDecoration = "none"
 }
 
 function FreeRooms() {
@@ -30,11 +23,6 @@ function FreeRooms() {
     TakenRoomsSection.style.display = "none"
     GuestListSection.style.display = "none"
     EndedContractSection.style.display = "none"
-    ButtonMain.style.textDecoration = "none"
-    ButtonFree.style.textDecoration = "underline"
-    ButtonTaken.style.textDecoration = "none"
-    ButtonList.style.textDecoration = "none"
-    ButtonEnded.style.textDecoration = "none"
 }
 
 function TakenRooms() {
@@ -43,11 +31,6 @@ function TakenRooms() {
     TakenRoomsSection.style.display = "block"
     GuestListSection.style.display = "none"
     EndedContractSection.style.display = "none"
-    ButtonMain.style.textDecoration = "none"
-    ButtonFree.style.textDecoration = "none"
-    ButtonTaken.style.textDecoration = "underline"
-    ButtonList.style.textDecoration = "none"
-    ButtonEnded.style.textDecoration = "none"
 }
 
 function GuestList() {
@@ -56,11 +39,6 @@ function GuestList() {
     TakenRoomsSection.style.display = "none"
     GuestListSection.style.display = "block"
     EndedContractSection.style.display = "none"
-    ButtonMain.style.textDecoration = "none"
-    ButtonFree.style.textDecoration = "none"
-    ButtonTaken.style.textDecoration = "none"
-    ButtonList.style.textDecoration = "underline"
-    ButtonEnded.style.textDecoration = "none"
 }
 
 function EndedContracts() {
@@ -69,13 +47,12 @@ function EndedContracts() {
     TakenRoomsSection.style.display = "none"
     GuestListSection.style.display = "none"
     EndedContractSection.style.display = "block"
-    ButtonMain.style.textDecoration = "none"
-    ButtonFree.style.textDecoration = "none"
-    ButtonTaken.style.textDecoration = "none"
-    ButtonList.style.textDecoration = "none"
-    ButtonEnded.style.textDecoration = "underline"
 }
 
 function ExitButton() {
+    window.location.href = "../index.html"
+}
+
+function AdminPanel() {
     window.location.href = "../index.html"
 }

@@ -90,15 +90,30 @@ html, body {
 }
 
 .exit_button:hover {
-    font-size: large;
     background-color: #31304D;
 }
 
+.admin_panel_button{
+    background-color: #161A30;
+    width: 80%;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: medium;
+    color: #F0ECE5;
+    cursor: pointer;
+}
+
+.admin_panel_button:hover {
+    background-color: #31304D;
+}
 .address_text {
     font-size: medium;
     text-align: center;
     color: #CAE4DB;
-    margin-top: 70px; 
+    margin-top: 60px; 
 }
 .address_info {
     font-size: medium;

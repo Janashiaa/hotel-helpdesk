@@ -1,6 +1,13 @@
-/* .main_section_header {
+.main_section {
+    display: none;
     width: 100%;
-    height: 50px;
+    height: 100%;
+    background-color: red;
+}
+
+.main_section_header {
+    width: 100%;
+    height: 8%;
     background-color: #161A30;
     padding-top: 5px;
     padding-left: 10px;
@@ -10,4 +17,4 @@
     font-size: x-large;
     color: #F0ECE5;
     text-align: left;
-} */
+}
