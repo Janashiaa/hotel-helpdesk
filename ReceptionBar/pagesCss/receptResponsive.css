@@ -1,0 +1,105 @@
+@media (max-width: 700px) {
+    .hotel_name {
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    .left_sidebar {
+        width: 25%;
+    }
+
+    .buttons_container {
+        margin-top: 5px;
+    }
+
+    .main_page,
+    .free_rooms,
+    .taken_rooms,
+    .guest_list,
+    .ended_contracts {
+        margin-top: 10px;
+        font-size: x-small;
+    }
+
+    .address_text {
+        margin-top: 20px;
+        font-size: x-small;
+    }
+
+    .address_info {
+        font-size: x-small;
+        margin-top: 5px;
+    }
+
+    .exit_button {
+        font-size: x-small;
+    }
+
+    .admin_panel_button {
+        display: none;
+    }
+
+    .admin_panel_button2 {
+        display: block;
+        font-size: x-small;
+        margin-bottom: 10px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .main_section_search_input,
+    .taken_rooms_search_input,
+    .guest_list_search_input,
+    .free_rooms_search_input,
+    .ended_contracts_search_input {
+        font-size: x-small;
+        width: 170px;
+        margin-left: 10%;
+    }
+
+    .taken_rooms_search_input_button,
+    .main_section_search_input_button,
+    .guest_list_search_input_button,
+    .free_rooms_search_input_button,
+    .ended_contracts_search_input_button {
+        width: 50px;
+        background-color: #161A30;
+        font-size: small;
+    }
+
+    .free_rooms_status_color_text,
+    .taken_rooms_status_color_text,
+    .guest_list_status_color_text,
+    .ended_contracts_status_color_text {
+        display: none;
+    }
+
+    .free_rooms_status_color,
+    .taken_rooms_status_color,
+    .guest_list_status_color,
+    .ended_contracts_status_color {
+        width: 20px;
+    }
+
+    .free_rooms_guest_text,
+    .taken_rooms_guest_text,
+    .guest_list_guest_text,
+    .ended_contracts_guest_text {
+        font-size: small;
+        width: 85%;
+    }
+
+    .lower_guest_list_details_box_information {
+        display: none;
+    }
+
+    .guest_list_comment_area {
+        font-size: small;
+    }
+    
+    .guest_list_details_head_text {
+        font-size: small;
+    }
+}

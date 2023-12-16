@@ -70,8 +70,9 @@
 }
 
 .guest_list_details_head {
-    width: 60%;
-    height: 30px;
+    max-width: 85%;
+    min-height: 30px;
+    padding: 0 5px 0 5px;
     background-color: #B6BBC4;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -181,7 +182,8 @@
 }
 .guest_list_guest_lister {
     width: 96%;
-    height: 30px;
+    min-height: 30px;
+    padding: 5px 0 5px 0;
     background-color: #B6BBC4;
     margin-top: 10px;
     margin-bottom: 10px;

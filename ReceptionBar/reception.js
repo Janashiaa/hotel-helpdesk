@@ -56,17 +56,19 @@ function AdminPanel() {
 }
 
 TextSaverButton.addEventListener("click", () => {
-    if(CommentTextArea.value !== ""){
-        console.log(CommentTextArea.value);
-        let h1 = document.createElement("h1")
-        let deleteBtn = document.createElement('button')
-        h1.innerHTML = CommentTextArea.value;
-        h1.classList.add("guest_list_comment_shower_text");
-        let div = document.createElement('div')
-        div.classList.add('flex')
-        deleteBtn.classList.add("delete_comment")
-        div.append(deleteBtn,h1)
-        CommentTextShower.append(div);
-        CommentTextArea.value = ""
+    if (CommentTextArea.value !== "") {
+            let h1 = document.createElement("h1");
+            let deleteBtn = document.createElement('button');
+            h1.innerText = CommentTextArea.value;
+            h1.classList.add("guest_list_comment_shower_text");
+            let div = document.createElement('div');
+            div.classList.add('flex');
+            deleteBtn.classList.add("delete_comment");
+            deleteBtn.addEventListener('click', () => {
+                CommentTextShower.removeChild(div)
+            })
+            div.append(deleteBtn, h1);
+            CommentTextShower.append(div);
+            CommentTextArea.value = "";
     }
 }) 

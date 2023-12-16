@@ -55,7 +55,8 @@
 
 .free_rooms_guest_lister {
     width: 98%;
-    height: 30px;
+    min-height: 30px;
+    padding: 5px 0 5px 0;
     background-color: #B6BBC4;
     margin-top: 10px;
     margin-bottom: 10px;

@@ -13,20 +13,21 @@ main {
     height: 100%;
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
     display: flex;
     width: 100%;
 }
 
-.left_sidebar{
+.left_sidebar {
     width: 20%;
     height: 100%;
     background-color: #161A30;
 }
 
-.hotel_name{
+.hotel_name {
     text-align: center;
     color: #DCAE1D;
     font-size: 30px;
@@ -50,7 +51,7 @@ html, body {
     width: 90%;
 }
 
-.main_page,  
+.main_page,
 .free_rooms,
 .taken_rooms,
 .guest_list,
@@ -76,7 +77,7 @@ html, body {
     background-color: #31304D;
 }
 
-.exit_button{
+.exit_button {
     background-color: #161A30;
     width: 80%;
     height: 30px;
@@ -93,7 +94,7 @@ html, body {
     background-color: #31304D;
 }
 
-.admin_panel_button{
+.admin_panel_button {
     background-color: #161A30;
     width: 80%;
     height: 30px;
@@ -106,15 +107,31 @@ html, body {
     cursor: pointer;
 }
 
+.admin_panel_button2 {
+    display: none;
+    background-color: #161A30;
+    width: 80%;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: medium;
+    color: #F0ECE5;
+    cursor: pointer;
+}
+
 .admin_panel_button:hover {
     background-color: #31304D;
 }
+
 .address_text {
     font-size: medium;
     text-align: center;
     color: #CAE4DB;
-    margin-top: 60px; 
+    margin-top: 60px;
 }
+
 .address_info {
     font-size: medium;
     text-align: center;
