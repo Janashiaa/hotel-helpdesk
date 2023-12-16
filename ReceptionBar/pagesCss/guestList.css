@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 .guest_list_section {
     display: none;
     width: 100%;
@@ -135,18 +138,36 @@
     resize: none;
     background-color: #F0ECE5;
     width: 95%;
-    height: 75%;
+    height: 20%;
     border-radius: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.guest_list_comment_shower {
+    margin-top: 10px;
+    background-color: #F0ECE5;
+    width: 95%;
+    height: 60%;
+    border-radius: 15px;
+    padding: 10px 20px 10px 5px;
+    overflow: auto;
+    border: 1px solid #31304D;
+    word-break: break-all;
+}
+
+.guest_list_comment_shower_text {
+    font-size: small;
+    color: #161A30;
+    text-align: left;
+    margin-bottom: 2px;
+    width: 90%;
 }
 
 .guest_list_details_box_card_saver {
     width: 70%;
     height: 40px;
     background-color: #B6BBC4;
+    font-size: large;
     margin-top: 5px;
     margin-bottom: 5px;
     border-radius: 15px;
@@ -158,11 +179,6 @@
     background-color: #31304D;
     color: #F0ECE5;
 }
-
-.guest_list_details_box_card_saver_text {
-    font-size: large;
-}
-
 .guest_list_guest_lister {
     width: 96%;
     height: 30px;
@@ -191,4 +207,22 @@
 
 .guest_list_status_color_text {
     font-size: small;
+}
+
+.flex {
+    display: flex;
+}
+
+.delete_comment {
+    width: 15px;
+    height: 15px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    margin-right: 5px;
+    background: url("../../images/remove.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    cursor: pointer;
 }
