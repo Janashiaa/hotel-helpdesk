@@ -6,6 +6,27 @@ let EndedContractSection = document.querySelector(".ended_contracts_section");
 let CommentTextArea = document.querySelector(".guest_list_comment_area");
 let CommentTextShower = document.querySelector(".guest_list_comment_shower");
 let TextSaverButton = document.querySelector(".guest_list_details_box_card_saver");
+let RoomNumbers = ["100","101","102","103","104","105","106","107","108","109","110","111","112","113","114"];
+let RoomSection = document.querySelector(".room_selector_section_1_room_list_container");
+let SectionNames = ["სართული 1", "სართული 2", "სართული 3","სართული 4", "სართული 5", "სართული 6",];
+let SectionContainer = document.querySelector(".main_section_worksheet_backer");
+
+
+for(let i = 0; i<RoomNumbers.length; i++) {
+    let RoomInfo = document.createElement("div");
+    RoomInfo.classList.add("room_selector_section_1_option");
+    RoomInfo.innerHTML = RoomNumbers[i];
+    RoomSection.append(RoomInfo);
+}
+
+
+for(let i = 0; i<SectionNames.length; i++) {
+    let SectionInfo = document.createElement("div");
+    SectionInfo.classList.add("room_selector_section_1");
+    SectionInfo.innerHTML = SectionNames[i];
+    SectionContainer.append(SectionInfo);
+}
+
 
 function MainPage() {
     MainSection.style.display = "block"
